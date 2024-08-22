@@ -42,6 +42,7 @@ function App() {
         </Button>
         {isOpen && (
           <Modal>
+            <Title>Entre em contato conosco e seja escoteiro!</Title>
             <a
               href="https://api.whatsapp.com/send?phone=5593991310661&text=Ol%C3%A1,%20quero%20ser%20escoteiro(a)"
               target="_blank"
@@ -49,7 +50,6 @@ function App() {
             >
               <QRCode />
             </a>
-            <Title>Entre em contato conosco e seja escoteiro!</Title>
             <Title>Leia o QRCode ou clique no botão abaixo</Title>
             <Link
               href="https://api.whatsapp.com/send?phone=5593991310661&text=Ol%C3%A1,%20quero%20ser%20escoteiro(a)"
