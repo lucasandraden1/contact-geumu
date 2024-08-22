@@ -89,7 +89,7 @@ export const Modal = styled.div`
     }
   }
 
-  @media screen {
+  @media screen and (max-width: 1024px) {
     padding: 30px 20px;
   }
 `;
