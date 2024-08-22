@@ -42,7 +42,7 @@ function App() {
         </Button>
         {isOpen && (
           <Modal>
-            <div style={{ width: "100%", maxWidth: "200px" }}>
+            <div style={{ width: "100%", maxWidth: "150px" }}>
               <QRCode />
             </div>
             <Title>Entre em contato conosco e seja escoteiro!</Title>
