@@ -1,5 +1,6 @@
 import { useState } from "react";
 import QRCode from "./QRCode";
+import logoGeumu from "./assets/logo_geumu.jpg";
 import {
   Button,
   Container,
@@ -21,10 +22,19 @@ function App() {
   return (
     <Container>
       <Content>
-        <Logo />
-        <Profile>@geumu_24pa</Profile>
+        <Logo>
+          <img
+            loading="lazy"
+            src={logoGeumu}
+            style={{ width: "100%", borderRadius: "100px" }}
+          />
+        </Logo>
+        <Profile>@escoteirosubirajara</Profile>
         <Title>Grupo Escoteiro Ubirajara Marques Umbuzeiro</Title>
-        <Button href="https://www.instagram.com/geumu_24pa/" target="_blank">
+        <Button
+          href="https://www.instagram.com/escoteirosubirajara/"
+          target="_blank"
+        >
           Instagram
         </Button>
         <Button onClick={handleModal} active={isOpen}>
@@ -37,7 +47,9 @@ function App() {
             </div>
             <Title>Entre em contato conosco e seja escoteiro!</Title>
             <Title>Leia o QRCode ou clique no botão abaixo</Title>
-            <Link href="https://contate.me/geumu24pa" target="_blank">Quero ser escoteiro</Link>
+            <Link href="https://contate.me/geumu24pa" target="_blank">
+              Quero ser escoteiro
+            </Link>
           </Modal>
         )}
       </Content>
