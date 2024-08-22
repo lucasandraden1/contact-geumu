@@ -47,11 +47,20 @@ function App() {
             </div>
             <Title>Entre em contato conosco e seja escoteiro!</Title>
             <Title>Leia o QRCode ou clique no botão abaixo</Title>
-            <Link href="https://contate.me/geumu24pa" target="_blank">
+            <Link
+              href="https://api.whatsapp.com/send?phone=5593991310661&text=Ol%C3%A1,%20quero%20ser%20escoteiro(a)"
+              target="_blank"
+            >
               Quero ser escoteiro
             </Link>
           </Modal>
         )}
+        <Button
+          href="https://maps.app.goo.gl/oyxNLQQF6AFN6tyA8"
+          target="_blank"
+        >
+          Localização
+        </Button>
       </Content>
     </Container>
   );

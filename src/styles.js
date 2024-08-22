@@ -76,13 +76,16 @@ export const Modal = styled.div`
   gap: 15px;
   padding: 30px;
   animation: show 1s;
+  transition: 0.3s all;
 
   @keyframes show {
     0% {
       opacity: 0;
+      transition: 0.3s all;
     }
     100% {
       opacity: 1;
+      transition: 0.3s all;
     }
   }
 `;
