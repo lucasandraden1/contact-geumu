@@ -88,6 +88,10 @@ export const Modal = styled.div`
       transition: 0.3s all;
     }
   }
+
+  @media screen {
+    padding: 30px 20px;
+  }
 `;
 
 export const Link = styled.a`
