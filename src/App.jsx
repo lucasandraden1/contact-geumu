@@ -44,7 +44,7 @@ function App() {
           <Modal>
             <Title>Entre em contato conosco e seja escoteiro!</Title>
             <a
-              href="https://api.whatsapp.com/send?phone=5593991310661&text=Ol%C3%A1,%20quero%20ser%20escoteiro(a)"
+              href="https://api.whatsapp.com/send?phone=5593991697457&text=Ol%C3%A1,%20quero%20ser%20escoteiro(a)"
               target="_blank"
               style={{ width: "100%", maxWidth: "150px" }}
             >
